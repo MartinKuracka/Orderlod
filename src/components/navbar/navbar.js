@@ -3,7 +3,7 @@ import MobileNavbar from './mobile/mobilenavbar';
 
 const Navbar = () => {
     return (
-        <div className='relative lg:w-1/5'>
+        <div className='relative'>
             <DesktopNavbar />
             <MobileNavbar />
         </div>
