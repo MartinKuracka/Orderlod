@@ -7,7 +7,7 @@ import Note from './body_components/note/note';
 
 const Body = () => {
     return (
-        <div className='lg:w-4/5 self-end h-screen mt-10'>
+        <section className='lg:w-4/5 self-end h-screen mt-10'>
             <H2>Sample header name</H2>
             <Text>This is a sample tex of how the main information will look like in the documentation. Every instruction would be written in this text format. </Text>
             <Text>Next thing is the format of the bullet list. It will look like this (standard view):</Text>
@@ -18,7 +18,7 @@ const Body = () => {
             <Text>For code snippets, following format will be provided:</Text>
             <Code>{SamplePic}</Code>
             <Note>If any note is required, it will be formatted inside the gray container with smaller font size</Note>
-        </div>
+        </section>
     )
 }
 
